@@ -1,0 +1,43 @@
+<html>
+<body>
+
+<form action="./includes/insertData.php" method="POST">
+UserName: <input type="text" name="username" required><br><br><br>
+Password: <input type="text" name="password" required><br><br><br>
+E-mail: <input type="text" name="email" required><br><br><br><br>
+<input type="submit" name="ClickMe">
+</form>
+
+<h3>UPDATE USER</h3>
+
+<form action="./includes/updateData.php" method="POST">
+    UserName: <input type="text" name="username" required><br><br><br>
+    Password: <input type="text" name="password" required><br><br><br>
+    E-mail: <input type="text" name="email" required><br><br><br><br>
+    <button>UPDATE</button>
+    <!-- <input type="submit" name="ClickMeToEdit"> -->
+    </form>
+    
+    
+
+    <h3>DELETE USER</h3>
+    <form action="./includes/deleteData.php" method="POST">
+        UserName: <input type="text" name="username" required><br><br><br>
+        Password: <input type="text" name="password" required><br><br><br>
+        <button>DELETE</button>
+        </form>
+
+
+
+
+
+
+        <h3>SEARCH FOR USER</h3>
+        <form action="./includes/searchData.php" method="POST">
+            UserNameSearch: <input type="text" name="usernamesearch" required><br><br><br>
+            <button>SEARCH FOR USER</button>
+            </form>
+        
+        
+</body>
+</html>
